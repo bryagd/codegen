@@ -26,6 +26,7 @@
 //! ```
 
 mod associated_type;
+mod associated_constant;
 mod block;
 mod body;
 mod bound;
@@ -49,6 +50,7 @@ mod r#type;
 
 
 pub use associated_type::*;
+pub use associated_constant::*;
 pub use block::*;
 pub use field::*;
 pub use formatter::*;
